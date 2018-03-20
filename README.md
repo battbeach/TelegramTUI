@@ -13,6 +13,11 @@ Telegram client on your console
 `sudo pip3 install telethon`  
 `git clone https://github.com/bad-day/TelegramTUI`   
 `cd TelegramTUI`
+### Additional steps for macosx installation
+Download https://github.com/billagee/aalib-patched and re-compile the aalib into a shared lib: 
+`pip3 install python-aalib`
+Make sure that there is no issue with aalib
+`python -c 'import aalib'`
 
 ### Usage
 * [Create application](https://core.telegram.org/api/obtaining_api_id)  
